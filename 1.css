@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.khungtren{
+    width:2000px;
+    height: 250px;
+}
+#hinhanh{
+    width: 302px;
+    height: 167px;
+    float: left;
+    transition: 0.5s;
+}
+.hinh1{
+    width: 440px;
+    height: 230px;
+    float: left;
+    margin-bottom: 10px;
+}
+.hinh2{
+    width: 440px;
+    height: 230px;
+    float: left;
+    margin-bottom: 10px;
+}
+#hinh3{
+    width: 440px;
+    height: 230px;
+    float: left;
+ 
+}
+h1{
+    font-size: 40px;
+    float: left;
+    margin-left: 100px;
+}
+#logo{
+    font-size: 40px;
+    transition: 0.5s;
+}
+.header{
+    width: 2000px;
+    height: 167px;
+    padding: 50px 20px;
+    position: fixed;
+    background-color: white;
+    top:0;
+    transition: 0.5s;
+}
+.menu{
+    left: 0;
+    height:61px;
+    width: 1900px;
+    background-color:green;
+    position: fixed;
+    top: 220px;
+    transition: 0.5s;
+}
+.menu1 {
+	width: 90px;
+    height: 41px;
+}
+.noidung{
+    width: 1200px;
+    float: left;
+    padding-top: 100px;
+    margin-right: 30px;
+}
+.khungphai{
+    margin-top: 100px;
+    width: 440px;
+    height: 1000px;
+    float: left;
+}
+.menu ul{
+  
+    list-style: none;
+}
+
+.menu ul li{
+    float:left ;
+}
+
+.menu ul li:hover a{
+    background-color: gray;
+    width: 90px;
+    height: 41px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 10px 10px;
+    color: cornsilk;
+   margin: 0 auto;
+}
+.noidung a{
+    text-decoration: none;
+    font-size: 40px;
+	float:left;
+}
+p{
+    font-size: 30px;
+}
+
+.hieuung1{
+    position: fixed;
+    top:250px;
+}
+
+
+
+
+li.cha{
+    position: relative;
+}
+li button{
+    padding: 10px;
+    font-size: 20px;
+ }
+.khung{ 
+    position: absolute;
+    top:100px;
+    left: 0;
+    z-index: 1;
+    width: 400px;
+    opacity: 0;
+}
+.khung input{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.hieuung{
+    left: 100px;
+    opacity: 1;
+    top:0px;
+    transition: 0.5s;
+}
+.noidung{
+	width: 900px;
+	height: 400px;
+	padding-top: 20px;
+	margin: 10px;
+}
+
+.noidung a{
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.noidung p{
+	text-align: justify;
+	font-size: 30px;
+}
+
+.hieuung{
+	position: fixed;
+	top: 0px;
+}
+
+li.cha{
+	position: relative;
+
+}
+li button{
+	margin-top: 6px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.khung{
+	position: absolute;
+	top: 0px;
+	left: -350px;
+	z-index: 1;
+	width: 400px;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.khung input{
+	width: 250px;
+	height: 50px;
+	background-color: black;
+	color: gray;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+.hieuung2{
+	left: 110px;
+	transition: 0.5s;
+	opacity: 1;
+}
+
+.hieuung{
+    position: fixed;
+    top:0px;
+}
+
+.khung2 {
+	width: 1540px;
+	height: 1000px;
+	float: left;
+}
+
+.hinhnho img {
+	width: 470px;
+	height: 400px;
+}
+.khungnho {
+	border: 1px solid red;
+}
+
+
+
+.noidung {
+	width: 1000px;
+	height: 400px;
+	border: 1px solid red;
+	float: left;
+}
